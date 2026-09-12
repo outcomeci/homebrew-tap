@@ -3,8 +3,8 @@ class OutcomeciCli < Formula
 
   desc "Portable Standup and outcome workflow runtime"
   homepage "https://github.com/outcomeci/cli"
-  url "https://files.pythonhosted.org/packages/41/d8/1af17d2257d95ccd864464d38da98a4fd4b8f485ae022ca59455b6b84d1b/outcomeci_cli-0.7.0.tar.gz"
-  sha256 "ff6e4b025fb9e0b9f7a3a650f2da27ce7d399dbeb5c03684ac53552c141768d8"
+  url "https://files.pythonhosted.org/packages/f7/04/3cc8516dd5347117f4fecdb83bac3a9938aa7fa4345050b58350580fbc3c/outcomeci_cli-0.7.1.tar.gz"
+  sha256 "818e1f2f257c6fbe48295b3583e0ef6359360f99780520624349e8d00373317d"
 
   depends_on "python@3.12"
 
