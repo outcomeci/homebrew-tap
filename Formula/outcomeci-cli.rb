@@ -1,7 +1,7 @@
 class OutcomeciCli < Formula
   include Language::Python::Virtualenv
 
-  desc "Portable Standup and outcome workflow runtime"
+  desc "Write, run and publish OutcomeCI workflows"
   homepage "https://github.com/outcomeci/cli"
   url "https://files.pythonhosted.org/packages/91/e1/7277ca7e3b6379cd9393205a4e08d1aacea288672382bde75a8664ab82b0/outcomeci_cli-0.41.3.tar.gz"
   sha256 "2be561d585e05ee2599b0f090a48f0704cd5fde0eb0467df81a9eceb63ec8e18"
