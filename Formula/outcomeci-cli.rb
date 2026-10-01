@@ -3,8 +3,8 @@ class OutcomeciCli < Formula
 
   desc "Write, run and publish OutcomeCI workflows"
   homepage "https://github.com/outcomeci/cli"
-  url "https://files.pythonhosted.org/packages/91/e1/7277ca7e3b6379cd9393205a4e08d1aacea288672382bde75a8664ab82b0/outcomeci_cli-0.41.3.tar.gz"
-  sha256 "2be561d585e05ee2599b0f090a48f0704cd5fde0eb0467df81a9eceb63ec8e18"
+  url "https://files.pythonhosted.org/packages/94/f3/82bdab73800dda77a90593f19b78f14a26d0c8cb17b50baae54121943288/outcomeci_cli-0.45.0.tar.gz"
+  sha256 "94fd61ba000ce226225e9c197d6bc2809858496536d12fbe08d0486f44a37549"
 
   depends_on "python@3.12"
 
@@ -29,8 +29,8 @@ class OutcomeciCli < Formula
   end
 
   resource "cryptography" do
-    url "https://files.pythonhosted.org/packages/bb/ad/5d6702db60b1e40b41ef513b6967ff5848f307d50f8449baf1634f5908f1/cryptography-50.0.1.tar.gz"
-    sha256 "5dd9bda1c12b4162f6ff568eeb5e0ff956c28d14406e875cfe8a63a2d414ff20"
+    url "https://files.pythonhosted.org/packages/9d/af/182eb91b0df3fe75c4d9f26fe70684569566745f6ba7e5c9c73a862c5252/cryptography-50.0.2.tar.gz"
+    sha256 "7b46165bb56eb4704e2eaaf86f3c940d19154535d9b0ca7d6d590b04060e00d5"
   end
 
   resource "h11" do
