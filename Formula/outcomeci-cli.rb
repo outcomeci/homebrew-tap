@@ -3,8 +3,8 @@ class OutcomeciCli < Formula
 
   desc "Write, run and publish OutcomeCI workflows"
   homepage "https://github.com/outcomeci/cli"
-  url "https://files.pythonhosted.org/packages/99/a0/8057867568126cf57aa6d93d1d6867372927feb41d9e20ec3e35eb965ebe/outcomeci_cli-0.47.0.tar.gz"
-  sha256 "f242771135bfb975bdf10beaf2cc0cfd9e8dbb94c5049009eb9ec6d9af085a67"
+  url "https://files.pythonhosted.org/packages/89/45/0052180b23bda327d32d5544c81cd51d119cc361f410ce485aff16e13f46/outcomeci_cli-0.48.0.tar.gz"
+  sha256 "72633b2051f55dd9548d8b4a07ed4647e594733f14f90cd460740df29f0a6de5"
 
   depends_on "python@3.12"
 
@@ -64,8 +64,8 @@ class OutcomeciCli < Formula
   end
 
   resource "outcomeci-connectors" do
-    url "https://files.pythonhosted.org/packages/82/49/d1519d674382d2ca80a52aa5edeef79b8a3ca9b9979288e8329c51060c55/outcomeci_connectors-0.3.0.tar.gz"
-    sha256 "4769e8eb9b6413b16f2ea5ac54f61bdad4f6792d01bc37c48781d020460ad950"
+    url "https://files.pythonhosted.org/packages/73/0d/28d35f349c1ccf4772bf5f91c27a1511ff6a06c002291dd76fc90e36186a/outcomeci_connectors-0.4.0.tar.gz"
+    sha256 "011ea5be2719a8c11d8a02c5fbd09cf1c649e301c4cf27060c7237de611f30fa"
   end
 
   resource "pycparser" do
