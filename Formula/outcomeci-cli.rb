@@ -3,8 +3,8 @@ class OutcomeciCli < Formula
 
   desc "Write, run and publish OutcomeCI workflows"
   homepage "https://github.com/outcomeci/cli"
-  url "https://files.pythonhosted.org/packages/a5/b5/e1adb3398288beeca2b09df8a68cbb939a954319b73d3796af55f7ff8b52/outcomeci_cli-0.49.1.tar.gz"
-  sha256 "85948ba24038ffb0b6967ad15ee0830f5fa174ffd58e5a850afef887232368b1"
+  url "https://files.pythonhosted.org/packages/0e/08/d1b78b695da531950d789c8fb6be449a6610ce222c36002f395b9aad9957/outcomeci_cli-0.50.1.tar.gz"
+  sha256 "e77c97b503c0afcc1d53f945daaa461eb1e9e528187e9a5fc4ac610926b32d61"
 
   depends_on "python@3.12"
 
@@ -64,8 +64,8 @@ class OutcomeciCli < Formula
   end
 
   resource "outcomeci-connectors" do
-    url "https://files.pythonhosted.org/packages/ac/41/fe59aa742cf101599b650a42d2888d238221e613f5baab4971bb34a05fd0/outcomeci_connectors-0.6.0.tar.gz"
-    sha256 "4cd3205134ea1832650de09626de396f97769ed9133bbc8b71a1b446ef93275d"
+    url "https://files.pythonhosted.org/packages/e5/31/ca4c865428f0fbf4e6a852bd36449021867a46267131b53608dc6c021c04/outcomeci_connectors-0.8.0.tar.gz"
+    sha256 "86f0170f16ca54c49531b15e83d9c9b5d0124743884463d0647cb2bcb3df5231"
   end
 
   resource "pycparser" do
@@ -89,8 +89,8 @@ class OutcomeciCli < Formula
   end
 
   resource "rpds-py" do
-    url "https://files.pythonhosted.org/packages/aa/2a/9618a122aeb2a169a28b03889a2995fe297588964333d4a7d67bdf46e147/rpds_py-2026.6.3.tar.gz"
-    sha256 "1cebd1337c242e4ec2293e541f712b2da849b29f48f0c293684b71c0632625d4"
+    url "https://files.pythonhosted.org/packages/42/68/3bd46b8a5e01d3c2ebdf9c5e9497912e3fe0cde02bac21a7130ca866e403/rpds_py-2026.9.1.tar.gz"
+    sha256 "4793ef7f78268b124b73fa933440f01d258bbae01de9fa53e9080c9ab0425a12"
   end
 
   resource "typing-extensions" do
