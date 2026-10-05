@@ -3,8 +3,8 @@ class OutcomeciCli < Formula
 
   desc "Write, run and publish OutcomeCI workflows"
   homepage "https://github.com/outcomeci/cli"
-  url "https://files.pythonhosted.org/packages/0e/08/d1b78b695da531950d789c8fb6be449a6610ce222c36002f395b9aad9957/outcomeci_cli-0.50.1.tar.gz"
-  sha256 "e77c97b503c0afcc1d53f945daaa461eb1e9e528187e9a5fc4ac610926b32d61"
+  url "https://files.pythonhosted.org/packages/6c/ab/2a873c384d154aa5473e1b098fa8765781eb6931fb3c9036068a0ad72936/outcomeci_cli-0.51.2.tar.gz"
+  sha256 "6e787f957ec2fa0e201ab33444fdcd8c3cf0f124e2b21a21347e9f69ec8f81eb"
 
   depends_on "python@3.12"
 
@@ -64,8 +64,8 @@ class OutcomeciCli < Formula
   end
 
   resource "outcomeci-connectors" do
-    url "https://files.pythonhosted.org/packages/e5/31/ca4c865428f0fbf4e6a852bd36449021867a46267131b53608dc6c021c04/outcomeci_connectors-0.8.0.tar.gz"
-    sha256 "86f0170f16ca54c49531b15e83d9c9b5d0124743884463d0647cb2bcb3df5231"
+    url "https://files.pythonhosted.org/packages/f3/09/5c59ae6062792bc78c7cd76c82c9b33fd38db77a7049400146ea4c60b3e2/outcomeci_connectors-0.10.0.tar.gz"
+    sha256 "4b44e9ed59139e0c4278892710b26a9ac6ad8a51d4dbda358d76a5314ee30a9e"
   end
 
   resource "pycparser" do
@@ -99,8 +99,8 @@ class OutcomeciCli < Formula
   end
 
   resource "wcwidth" do
-    url "https://files.pythonhosted.org/packages/dc/ac/3a943d2792c9bb368aaa8b50121c0f778460ba2d7fbdc0a0366201d9e761/wcwidth-0.9.1.tar.gz"
-    sha256 "5823209b0d43af322ce698c689380d7c15ca31fa8e6e3be8459f27031bef0af5"
+    url "https://files.pythonhosted.org/packages/f0/b4/7830542634bb2d3e62aa3b586a72d5b3b6c91c3168929e7000ef3fed041d/wcwidth-0.9.2.tar.gz"
+    sha256 "ae0ef90b90f6af38b54f1fe6d58662ec33b3cb4b8391958a62416d654231727b"
   end
 
   def install
