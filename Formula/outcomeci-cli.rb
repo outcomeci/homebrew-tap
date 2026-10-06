@@ -3,8 +3,8 @@ class OutcomeciCli < Formula
 
   desc "Write, run and publish OutcomeCI workflows"
   homepage "https://github.com/outcomeci/cli"
-  url "https://files.pythonhosted.org/packages/6c/ab/2a873c384d154aa5473e1b098fa8765781eb6931fb3c9036068a0ad72936/outcomeci_cli-0.51.2.tar.gz"
-  sha256 "6e787f957ec2fa0e201ab33444fdcd8c3cf0f124e2b21a21347e9f69ec8f81eb"
+  url "https://files.pythonhosted.org/packages/20/32/74d4eceedf2d5cc32916f112d33dc0fd8c8761aeec47f4d591de5b3ecb43/outcomeci_cli-0.52.0.tar.gz"
+  sha256 "a579eb9aa7ef044439f4e79b08ff0b4c3ec532da3dac73419c3230cdcdbb979e"
 
   depends_on "python@3.12"
 
